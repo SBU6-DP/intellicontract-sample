@@ -535,6 +535,7 @@ const [statusIndex, setStatusIndex] = useState(0);
         setContractOffer(res?.contract['Contract Offer'])
         setProductGroup(res?.contract['Product Group'])
     }).catch((err)=>{
+      setIsLoading(false)
       setContractOffer(result.result['Contract Offer'])
       setProductGroup(result.result['Product Group'])
       console.log(err)
