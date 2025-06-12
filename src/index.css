@@ -1,0 +1,206 @@
+@import url('./Components/Pages/root.css');
+
+.pagination {
+    display: flex;
+    margin: 30px 0;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    padding: 6px;
+  }
+  
+  .page-item {
+    margin: 0;
+  }
+  
+  .page-link:hover {
+    background: none;
+  }
+  
+  .page-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    font-family: var(--font-medium);
+    font-size: var(--default);
+    border-radius: 4px !important;
+    background: none !important;
+    color: var(--bg-dark-6) !important;
+    border: none !important;
+    cursor: pointer !important;
+  }
+  
+  .page-item.active .page-link {
+    font-family: var(--font-semibold);
+    font-size: var(--normal);
+    border: none !important;
+    border-radius: 4px !important;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    color: var(--black-30) !important;
+  }
+
+  .page-link img{
+    width: 40px;
+    height: 20px;
+  }
+  
+  .page-link:focus,
+  .page-link:focus-within,
+  .page-link:visited,
+  .page-link:active {
+    box-shadow: none;
+    background-color: none;
+    color: var(--bg-dark-2);
+  }
+  
+  .page-item.active .page-link.invoice {
+    background: #5c00ac !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.deals {
+    background: #68b984 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.contacts {
+    background: #009eff !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.clients {
+    background: #307ff4 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.teams {
+    background: #8758ff !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.bookings {
+    background: #4793b4 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.projects {
+    background: #8d9eff !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.tenders {
+    background: #7e89bc !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.tenders-settings {
+    background: #307ff4 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.workshop {
+    background: #8d9eff !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.training {
+    background: #00abc1 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.updates {
+    background: #e14d2a !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.properties {
+    background: #59bca8 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.properties-settings {
+    background: #00abc1 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.todo {
+    background: #ffd000 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.servicedesk {
+    background: #975c8d !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.incident {
+    background: #4e31aa !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.directory {
+    background: #9e7676 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.deals-orange {
+    background: #ff6f00 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.email {
+    background: #307ff4 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.feedback {
+    background: #8d9eff !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.file {
+    background: #4793b4 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.pay {
+    background: #76aa31 !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.active .page-link.password-manager {
+    background: #175d4a !important;
+    color: var(--white) !important;
+  }
+  
+  .page-item.disabled .page-link i {
+    font-size: var(--normal);
+    color: var(--bg-dark-6);
+    cursor: pointer !important;
+  }
+  
+  .page-link:focus,
+  .page-link:focus-within,
+  .page-link:visited,
+  .page-link:active {
+    box-shadow: none;
+    background-color: none;
+    color: var(--bg-dark-2);
+  }
+  
+  .form-control:disabled,
+  .form-control[readonly] {
+    background-color: #f2f2f2f2;
+  }
+  

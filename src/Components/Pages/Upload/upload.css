@@ -1,0 +1,90 @@
+.upload-main-box{
+    margin: 68px auto;
+    width: 983px;
+    height: 423px;
+}
+
+.upload-name{
+    color: #F5F5F6;
+    margin-bottom: 10px;
+}
+
+.upload-info{
+    font-size: 20px;
+    color: #F5F5F6;
+}
+
+.upload-box {
+  border: 1px dashed #666;
+  border-radius: 8px;
+  padding: 40px 20px;
+  width: 721px;
+  height: 140px;
+  margin: auto;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  background-color: #161B26;
+}
+
+.upload-box p,img{
+    cursor: pointer;
+}
+
+.upload-box:hover{
+    background-color: #1F242F;
+}
+
+
+.upload-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ccc;
+  text-decoration: none;
+}
+
+
+.uploaded-box {
+  border-radius: 8px;
+  padding: 40px 20px;
+  width: 721px;
+  margin: auto;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  background-color: #161B26;
+}
+
+.upload-btn{
+    width:240px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px auto;
+    color: white;
+    font-weight: 600;
+    transition: opacity 0.2s ease;
+    background-image: linear-gradient(to right,#EB2F96,#722ED1);
+}
+
+.upload-btn:hover {
+  background-image:linear-gradient(to right,#722ED1);
+}
+
+.progress{
+    height: 4px;
+}
+
+.progress-bar{
+    height: 4px;
+    background-image: linear-gradient(to right,#EB2F96,#722ED1)!important;
+}
+
+.file-img{
+    width: 32px;
+    height: 32px;
+}
+
+.trash-img{
+    width: 24px;
+    height: 24px;
+}
