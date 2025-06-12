@@ -535,8 +535,8 @@ const [statusIndex, setStatusIndex] = useState(0);
         setContractOffer(res?.contract['Contract Offer'])
         setProductGroup(res?.contract['Product Group'])
     }).catch((err)=>{
-      // setContractOffer(result.result['Contract Offer'])
-      // setProductGroup(result.result['Product Group'])
+      setContractOffer(result.result['Contract Offer'])
+      setProductGroup(result.result['Product Group'])
       console.log(err)
     })
   }

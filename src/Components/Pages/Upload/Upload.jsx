@@ -96,15 +96,15 @@ function Upload() {
          });
     }).catch((err)=>{
       console.log(err)
-      // toast.remove()
-      //  navigate("preview", {
-      //      state: {
-      //        files: {
-      //          contract: files.contract,
-      //          price: files.price,
-      //        },
-      //      },
-      //    });
+      toast.remove()
+       navigate("preview", {
+           state: {
+             files: {
+               contract: files.contract,
+               price: files.price,
+             },
+           },
+         });
     })
   };
 
