@@ -36,8 +36,8 @@ function Login() {
   };
 
   const login = () => {
-    instance.loginRedirect({ scopes: ["user.read"] });
-    // navigate('/upload')
+    // instance.loginRedirect({ scopes: ["user.read"] });
+    navigate('/upload')
   };
   return (
     <div className="container-fluid login-bg">
